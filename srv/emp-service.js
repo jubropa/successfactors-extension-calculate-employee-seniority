@@ -121,7 +121,7 @@ module.exports = async (srv) => {
     });
   
     messaging.on(
-      "sap/successfactors/SFPART057671/isc/contractchange",
+      "sap/successfactors/mySF/isc/contractchange",
       async (msg) => {
         console.log("<< create event caught");
   

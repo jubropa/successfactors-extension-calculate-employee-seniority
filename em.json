@@ -1,6 +1,6 @@
 {
   "emname": "seniority_calculator",
-  "namespace": "sap/successfactors/SFPART057671",
+  "namespace": "sap/successfactors/mySF",
   "options": {
     "management": true,
     "messaging": true,
