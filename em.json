@@ -1,31 +1,8 @@
 {
   "emname": "seniority_calculator",
-  "namespace": "sap/successfactors/mySF",
   "options": {
     "management": true,
     "messaging": true,
     "messagingrest": true
-  },
-  "resources": {
-    "units": "10"
-  },
-  "rules": {
-    "queueRules": {
-      "publishFilter": [
-        "${namespace}/*"
-      ],
-      "subscribeFilter": [
-        "${namespace}/*"
-      ]
-    },
-    "topicRules": {
-      "publishFilter": [
-        "${namespace}/*"
-      ],
-      "subscribeFilter": [
-        "${namespace}/*"
-      ]
-    }
-  },
-  "version": "1.1.0"
+  }
 }

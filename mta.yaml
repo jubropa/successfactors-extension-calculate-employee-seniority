@@ -51,7 +51,7 @@ resources:
     parameters:
       path: ./em.json 
       service: enterprise-messaging
-      service-plan: default
+      service-plan: dev
   - name: seniority-calc-dest
     parameters:
       service-plan: lite
